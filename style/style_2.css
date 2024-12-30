@@ -1,0 +1,142 @@
+body {
+    background-color: rgba(43, 0, 255, 0.07) !important;
+    min-height: 100vh;
+    max-width: 100vh;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    height: auto;
+    margin-top: 40px;
+}
+
+.card_left {
+    width: 200px;
+    height: auto;
+    background-color: rgba(9, 9, 91, 0.723);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.card_flex {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.answer_options {
+    margin-bottom: 16px;
+    height: 80px !important;
+}
+
+.logo {
+    width: 120px !important;
+    height: auto;
+}
+
+.card_right {
+    width: 100%;
+}
+
+#answer_option {
+    cursor: pointer;
+}
+
+.tropy_img_end_screen {
+    width: auto;
+    height: 200px;
+}
+
+.show_amount_right_answers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer_options {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row !important;
+    padding: 0 24px;
+}
+
+.question_letter {
+    border: 2px solid white;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 10%;
+    font-weight: 700;
+    background-color: rgba(128, 128, 128, 0.427);
+}
+
+.bg-success,
+.bg-danger {
+    color: white !important;
+}
+
+.bottom_part_question_screen {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center;
+    gap: 32px;
+}
+
+.bottom_part_question_screen p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: grey;
+}
+
+.forward_button_div {
+    width: auto;
+}
+
+.start_screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_start_quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionmark_img {
+    height: 200px;
+    width: auto;
+}
+
+.card-body-start-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+.navbar_title{
+    padding: 16px;
+}
+
+.card-body-finishing-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
