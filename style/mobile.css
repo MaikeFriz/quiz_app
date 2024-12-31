@@ -1,0 +1,54 @@
+@media(max-width: 1050px){
+    .card_left{
+        display: none;
+    }
+    .card_flex{
+        width: 750px !important;
+        text-align: center;
+    }
+    .answer_options {
+        height: 120px !important;
+    }
+    .card_questions{
+        height: 680px !important;
+    }
+    .card-title{
+        padding-bottom: 16px;
+    }
+    body{
+        height: fit-content !important;
+    }
+}
+
+@media(max-width: 825px){
+    .card_flex{
+        width: 500px !important;
+    }
+    .answer_options {
+        height: 120px !important;
+    }
+    .card_questions{
+        height: 700px !important;
+    }
+    .card_start{
+        height: 550px !important;
+    }
+}
+
+@media(max-width: 550px){
+    .card_flex{
+        width: 300px !important;
+    }
+    .answer_options {
+        height: 180px !important;
+    }
+    .card_questions{
+        height: 970px !important;
+    }
+    .card_start{
+        height: 600px !important;
+    }
+    .show_amount_question{
+        font-size: 12px;
+    }
+}

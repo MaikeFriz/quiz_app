@@ -2,16 +2,18 @@ body {
     background-color: rgba(43, 0, 255, 0.07) !important;
     min-height: 100vh;
     max-width: 100vh;
-    overflow: hidden;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 .main {
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
+    flex-direction: column !important;
     min-width: 100vw;
-    height: auto;
-    margin-top: 40px;
+    height: 100vh;
+    margin: 0 auto;
 }
 
 .card_left {
